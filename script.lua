@@ -7,7 +7,10 @@ print("^ Executor level")
 -- UNC Test
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/main/UNCCheckEnv.lua", true))()
 -- sUNC Test
-loadstring(game:HttpGet("https://raw.githubusercontent.com/akghacks/GearX/refs/heads/main/script.lua"))()
+getgenv().DebugMode = true
+
+loadstring(game:HttpGet("https://github.com/skintalker/Fake-sUNC/raw/refs/heads/main/Source/Fake-sUNC-Main.lua"))()
+
 
 -- Bye Bye
 print("good or nah?")
