@@ -5,9 +5,9 @@ print("jkjkjk im kidding")
 printidentity()
 print("^ Executor level")
 -- UNC Test
-loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/main/UNCCheckEnv.lua", true))()
+loadstring(game:HttpGet("https://pastefy.app/rWZyHcIJ/raw"))()
 -- sUNC Test
-getgenv().DebugMode = true
+getgenv().DebugMode = false
 
 loadstring(game:HttpGet("https://github.com/skintalker/Fake-sUNC/raw/refs/heads/main/Source/Fake-sUNC-Main.lua"))()
 
